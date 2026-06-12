@@ -1,6 +1,8 @@
 venv/
 env/
+.venv
 .env
+.env.local
 
 __pycache__/
 *.py[cod]
@@ -12,3 +14,9 @@ __pycache__/
 *.log
 *.db
 *.sqlite3
+
+.pytest_cache/
+.coverega
+htlmcov/
+
+.dockerignore
